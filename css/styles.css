@@ -1,0 +1,288 @@
+/* GENERAL STYLES */
+
+a.btn-get {
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: grey;
+}
+
+a:active {
+  color: black;
+}
+
+.py-70 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+/* NAV & JUMBOTRON => HEADER*/
+
+.my-jumbotron {
+  background-image: url('../images/couple.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.headline {
+  color: #85CAB5;
+  font-size: 170px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  margin-top: 200px;
+}
+
+.headline2 {
+  font-size: 50px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+}
+
+.logo-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  margin-left: 16px;
+  margin-top: -9px;
+  display: inline-block;
+}
+
+.btn-get {
+  background-color: #4fe3c2;
+  border-radius: 10px;
+  padding: 10px 25px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  text-transform: lowercase;
+  font-size: 40px;
+}
+
+/* /////////////////// */
+
+/* MAIN */
+
+/* ROWS */
+
+/* row1 */
+
+.row1 {
+  background-color: #FFD3BA;
+}
+
+.row1-image {
+  height: 150px;
+}
+
+.features {
+  font-size: 40px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  padding: 20px 30%;
+}
+
+/* row 2 */
+
+.full-width {
+  background-image: url('../images/feet.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.quote {
+  color: #2B7161;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  margin: 600px 10% 125px 10%;
+  text-align: center;
+}
+
+/* ROW 3 */
+
+.row3-image {
+  width: 50%;
+}
+
+.row3 {
+  background-color: #FFD3BA;
+}
+
+.row3 .col-md-3 {
+  padding: 30px 0px;
+}
+
+/* //////////////////// */
+
+/* FOOTER */
+
+.footer-image {
+  width: 40%;
+  height: 100%;
+}
+
+.footer {
+  background-color: #50E3C2;
+}
+
+.py-20 {
+  padding: 20px 0px;
+}
+
+.socialicons {
+  color: white;
+  font-size: 50px;
+}
+
+/* MEDIA QUERIES */
+
+/* MOBILE */
+
+@media(min-width: 0px) and (max-width: 576px) {
+  .headline {
+    font-size: 50px;
+    margin: 20px 0px;
+  }
+  .headline2 {
+    font-size: 20px;
+  }
+  .my-jumbotron {
+    background-size: cover;
+    padding: 0px;
+    text-align: center;
+  }
+  .my-jumbotron .mt-5 {
+    padding: 10px 0px;
+    margin: 0px 0px;
+    margin-top: 1rem !important;
+  }
+  .row1-image {
+    height: 73px;
+  }
+  .features {
+    font-size: 20px;
+
+  }
+  .socialicons {
+    font-size: 35px;
+    color: white;
+  }
+
+
+  .quote {
+    color: #2B7161;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    margin: 255px 10% 35px 10%;
+    text-align: center;
+  }
+  .py-70 {
+    padding-top: 23px;
+    padding-bottom: 0px;
+  }
+  .row3-image {
+    width: 35%;
+  }
+  .mr-5 {
+    margin: 0px;
+  }
+}
+
+/* TABLET */
+
+@media(min-width: 576px) and (max-width: 991px) {
+  .headline {
+    font-size: 100px;
+    margin: 20px 0px;
+  }
+  .headline2 {
+    font-size: 40px;
+  }
+  .my-jumbotron {
+    background-size: cover;
+    padding: 0px;
+  }
+  .my-jumbotron .mt-5 {
+    padding: 10px 0px;
+    margin-top: 1rem !important;
+  }
+  .footer-image {
+    width: 40%;
+  }
+  .quote {
+    color: #2B7161;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    margin: 400px 10% 70px 10%;
+    text-align: center;
+  }
+  .features {
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    padding: 0px;
+  }
+  .row1-image {
+    height: 100px;
+  }
+  .row3-image {
+    width: 40%;
+  }
+
+}
+
+/* IPAD PRO */
+
+@media(min-width: 992px)and (max-width: 1197px) {
+  .row1-image {
+    height: 120px;
+  }
+  .features {
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    padding: 0px;
+  }
+  .my-jumbotron {
+    background-size: cover;
+    padding: 0px;
+  }
+  .my-jumbotron .mt-5 {
+    padding: 10px 0px;
+    margin-top: 1rem !important;
+  }
+
+  .headline {
+    color: #85CAB5;
+    font-size: 145px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+    margin-top: 160px;
+  }
+  .quote {
+      color: #2B7161;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      font-size: 50px;
+      margin: 412px 10% 25px 10%;
+      text-align: center;
+  }
+}
+
+
+
+/* DESKTOP */
